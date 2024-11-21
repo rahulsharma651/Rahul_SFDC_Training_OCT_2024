@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>Feedback__c.Training_Session_Lookup__c</members>
+        <members>Training_Session__c.Total_Attendee__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Attendee__c</members>
+        <members>Feedback__c</members>
+        <members>Training_Session__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Attendee__c-Attendee_Layout</members>
+        <members>Feedback__c-Feedback Layout</members>
+        <members>Training_Session__c-Training Session Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Training_Session__c.Webinar</members>
+        <members>Training_Session__c.Workshop</members>
+        <name>RecordType</name>
+    </types>
+    <version>60.0</version>
+</Package>

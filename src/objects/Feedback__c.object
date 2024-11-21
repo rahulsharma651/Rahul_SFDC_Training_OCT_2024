@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Training_Session_Lookup__c</fullName>
+        <externalId>false</externalId>
+        <label>Training Session</label>
+        <referenceTo>Training_Session__c</referenceTo>
+        <relationshipLabel>Feedback (Training_Session__c)</relationshipLabel>
+        <relationshipName>Feedback_c2</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+</CustomObject>
