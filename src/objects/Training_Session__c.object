@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Total_Attendee__c</fullName>
+        <description>Average rating from Feedback records</description>
+        <externalId>false</externalId>
+        <label>Total_Attendee</label>
+        <summaryForeignKey>Attendee__c.Attendee_Count_Lookup__c</summaryForeignKey>
+        <summaryOperation>count</summaryOperation>
+        <trackTrending>false</trackTrending>
+        <type>Summary</type>
+    </fields>
+    <recordTypes>
+        <fullName>Webinar</fullName>
+        <active>true</active>
+        <label>Webinar</label>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Workshop</fullName>
+        <active>true</active>
+        <label>Workshop</label>
+    </recordTypes>
+</CustomObject>
