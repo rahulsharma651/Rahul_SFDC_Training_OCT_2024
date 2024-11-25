@@ -70,6 +70,20 @@
 		<name>DuplicateRule</name>
 	</types>
 	<types>
+    <types>
+        <members>Opportunity.Opportunity_Approval</members>
+        <name>ApprovalProcess</name>
+    </types>
+    <types>
+        <members>Opportunity.Discount_Approved__c</members>
+        <members>Opportunity.Discount_Percent__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>Opportunity</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
 		<members>unfiled$public/Discount_Approved</members>
 		<members>unfiled$public/Discount_Approved1</members>
 		<members>unfiled$public/Opportunity_Template</members>
@@ -139,4 +153,17 @@
 		<name>WorkflowFieldUpdate</name>
 	</types>
 	<version>60.0</version>
+</Package>
+    <types>
+        <members>Opportunity.Approval_Declined</members>
+        <members>Opportunity.Notify_Submitter_of_Discount_Request_Approval</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>Opportunity.Checked_Discount_box</members>
+        <members>Opportunity.OA_Opportunity_Approval</members>
+        <members>Opportunity.Set_Discount_Approved_Checkbox</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <version>60.0</version>
 </Package>
