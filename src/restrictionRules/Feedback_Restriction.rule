@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RestrictionRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <description>Restriction rule allows users with the designated profile to see only the Feedback that they own.</description>
+    <enforcementType>Restrict</enforcementType>
+    <masterLabel>Feedback_Restriction</masterLabel>
+    <recordFilter>Training_Session_Lookup__r.OwnerId=$User.Id</recordFilter>
+    <targetEntity>Feedback__c</targetEntity>
+    <userCriteria>$User.ProfileId=&apos;00eNS000002mK3J&apos;</userCriteria>
+    <version>1</version>
+</RestrictionRule>
