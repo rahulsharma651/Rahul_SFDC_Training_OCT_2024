@@ -165,5 +165,9 @@
         <members>Opportunity.Set_Discount_Approved_Checkbox</members>
         <name>WorkflowFieldUpdate</name>
     </types>
+    <types>
+	<members>*</members>
+	<name>FlexiPage</name>
+    </types>
     <version>60.0</version>
 </Package>
