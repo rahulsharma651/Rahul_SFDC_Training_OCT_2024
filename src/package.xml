@@ -69,7 +69,6 @@
 		<members>Training_Session__c.Training_Duplicate</members>
 		<name>DuplicateRule</name>
 	</types>
-	<types>
     <types>
         <members>Opportunity.Opportunity_Approval</members>
         <name>ApprovalProcess</name>
@@ -153,8 +152,7 @@
 		<name>WorkflowFieldUpdate</name>
 	</types>
 	<version>60.0</version>
-</Package>
-    <types>
+   <types>
         <members>Opportunity.Approval_Declined</members>
         <members>Opportunity.Notify_Submitter_of_Discount_Request_Approval</members>
         <name>WorkflowAlert</name>
