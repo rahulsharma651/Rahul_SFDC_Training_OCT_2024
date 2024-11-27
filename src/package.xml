@@ -153,6 +153,7 @@
 	</types>
 	<version>60.0</version>
    <types>
+    <types>
         <members>Opportunity.Approval_Declined</members>
         <members>Opportunity.Notify_Submitter_of_Discount_Request_Approval</members>
         <name>WorkflowAlert</name>
@@ -183,6 +184,10 @@
         <members>Feedback_Restriction</members>
         <members>Webinar_Restriction</members>
         <name>RestrictionRule</name>
+    </types>
+    <types>
+	<members>*</members>
+	<name>FlexiPage</name>
     </types>
     <version>60.0</version>
 </Package>

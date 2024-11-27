@@ -1,0 +1,9 @@
+Dear {!Approval_Requesting_User.FirstName},
+
+You have submitted a request for approval. The approver is {!Approval_Requesting_User.ceo__c}.
+
+Please click the following link to review and approve the request:
+Approval Page : {!ApprovalRequest.Internal_URL}{!ApprovalRequest.Status}{!ApprovalRequest.Process_Approver_Id}
+
+Thank you,
+Your Salesforce Team
