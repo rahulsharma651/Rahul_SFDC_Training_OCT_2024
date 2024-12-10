@@ -169,6 +169,10 @@
 	<name>FlexiPage</name>
     </types>
     <types>
+        <members>ApexAssign1</members>
+        <name>ApexClass</name>
+    </types>
+     <types>
         <members>*</members>
         <name>CustomMetadata</name>
     </types>
