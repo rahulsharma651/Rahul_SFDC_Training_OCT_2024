@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>SessionType_Webinar</fullName>
+        <categories>Training_Session__c</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Custom label for Webinar session type</shortDescription>
+        <value>Webinar</value>
+    </labels>
+    <labels>
+        <fullName>SessionType_Workshop</fullName>
+        <categories>Training_Session__c</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Custom label for Workshop</shortDescription>
+        <value>Workshop</value>
+    </labels>
+</CustomLabels>
