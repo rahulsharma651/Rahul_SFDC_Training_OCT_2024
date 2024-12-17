@@ -194,7 +194,22 @@
 	<name>FlexiPage</name>
     </types>
 <types>
-		<members>TrainingSessionManager</members>
+
+		<members>TestDataFactory</members>
+		<members>TrainingSessionHandler</members>
+		<members>TrainingSessionHandlerTest</members>
+		<members>TriggerContactHandler</members>
+		<members>TriggerContactHandlerTest</members>
+		<members>TriggerHandler</members>
+		<name>ApexClass</name>
+	</types>
+    <types>
+		<members>Attendeetrigger</members>
+		<members>ContactTrigger</members>
+		<name>ApexTrigger</name>
+	</types>
+   <types>
+     <members>TrainingSessionManager</members>
 		<name>ApexClass</name>
 	</types>
 <types>
@@ -202,6 +217,5 @@
 		<members>SessionType_Workshop</members>
 		<name>CustomLabel</name>
 	</types>
-
     <version>60.0</version>
 </Package>
